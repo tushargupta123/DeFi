@@ -7,6 +7,8 @@ import DappToken from '../abis/DappToken.json';
 import TokenFarm from "../abis/TokenFarm.json";
 import Main from "./Main";
 
+// whenever start open ganache , link it to metamask, link the same account to website, run npx truffle migrate --reset, then run npm run start 
+
 class App extends Component {
 
   async componentDidMount() {
